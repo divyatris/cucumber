@@ -1,0 +1,78 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Searching process",
+        "description": "",
+        "id": "search-for-product;searching-process",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 29938176100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User access the login page",
+            "match": {
+              "location": "case03.user_access_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3551026699,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user enters \"head\" in the search box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"head\"",
+                  "offset": 12
+                }
+              ],
+              "location": "case03.user_enters_in_the_search_box(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"/html/body/div[1]/form/input\"}\n  (Session info: chrome\u003d75.0.3770.100)\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.14.0\u0027, revision: \u0027aacccce0\u0027, time: \u00272018-08-02T20:19:58.91Z\u0027\nSystem info: host: \u0027CDC2-D-4954N62\u0027, ip: \u002710.237.17.59\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_211\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 75.0.3770.100, chrome: {chromedriverVersion: 75.0.3770.90 (a6dcaf7e3ec6f..., userDataDir: C:\\Users\\TRAINI~1.29\\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:59591}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 97554ef128cb60ccdf928e3816af4f3d\n*** Element info: {Using\u003dxpath, value\u003d/html/body/div[1]/form/input}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat java.lang.reflect.Constructor.newInstance(Unknown Source)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)\r\n\tat stepdef.case03.user_clicks_find_button(case03.java:36)\r\n\tat ✽.user clicks find button(src/test/resources/file3.feature:6)\r\n",
+              "duration": 56707900,
+              "status": "failed"
+            },
+            "line": 6,
+            "name": "user clicks find button",
+            "match": {
+              "location": "case03.user_clicks_find_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9900,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "user verifies",
+            "match": {
+              "location": "case03.user_verifies()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Search for product",
+    "description": "",
+    "id": "search-for-product",
+    "keyword": "Feature",
+    "uri": "src/test/resources/file3.feature",
+    "tags": []
+  }
+]
