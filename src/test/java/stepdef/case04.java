@@ -36,11 +36,11 @@ public class case04 {
 		 String s2="View Cart";
 		 // SoftAssert softAssert = new SoftAssert();
 		 if(s1.equals(s2)){
-			 Assert.assertTrue(false);
+			 Assert.assertTrue(true);
 			 
 		 }
 		 else{
-			 Assert.assertTrue(true);
+			 Assert.assertTrue(false);
 		 }
 	}
 
