@@ -8,4 +8,4 @@ Then click login
 
 Examples:
 |uname||pass|
-|AlexUser||Alex@123|
+|lalitha||Password123|
