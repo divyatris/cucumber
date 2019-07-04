@@ -17,8 +17,8 @@ public class case04 {
 		   driver= new ChromeDriver();
 		   driver.get("http://10.232.237.143:443/TestMeApp/login.htm");
 		   driver.manage().window().maximize();
-		   driver.findElement(By.id("userName")).sendKeys("AlexUser");
-		   driver.findElement(By.id("password")).sendKeys("Alex@123"); 
+		   driver.findElement(By.id("userName")).sendKeys("lalitha");
+		   driver.findElement(By.id("password")).sendKeys("Password123"); 
 		   driver.findElement(By.xpath("/html/body/main/div/div/div/form/fieldset/div[4]/div/input[1]")).click();
 	}
 
